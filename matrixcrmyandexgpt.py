@@ -3,12 +3,12 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Настройки YandexGPT
-IAM_TOKEN = "t1.9euelZrMjpuamomWkJrHmcmQj5aKx-3rnpWanY6Uz8-Ylp6Zmo3PlJ2Wj5Xl8_cFLRNG-e98GWps_d3z90VbEEb573wZamz9zef1656VmpudzJaUx57Gj5aSkpzGzs-e7_zF656VmpudzJaUx57Gj5aSkpzGzs-e.68etj397uGUg1HUsZB3hAmLtjYrZMo0t0VssRdqQgcs-UaXxQWsm1xeRKBKapN_iaw9ePxrNP5V4GLMKn64bDw"
-CATALOG_ID = "b1gb9k14k5ui80g91tnp"
+IAM_TOKEN = ""
+CATALOG_ID = ""
 MODEL_URI = f"gpt://{CATALOG_ID}/yandexgpt/rc"
 
 # Телеграм токен
-TELEGRAM_TOKEN = "7828823061:AAFqiiM3bQhB2Ab1hidTMXaziGDCps5H3N4"
+TELEGRAM_TOKEN = ""
 
 # Функция для генерации текста с использованием YandexGPT
 def generate_text(user_description):
